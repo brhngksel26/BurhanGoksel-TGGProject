@@ -20,8 +20,8 @@ public class Bot {
     }
 
     public void login()  {
-        String username = "burhan690";
-        String password = "nbvcxz26";
+        String username = "your_username";
+        String password = "your_password";
         try{
             driver.findElement(By.xpath("//*[@class='gekhq4-4 egoSnI']")).click();
             driver.findElement(By.xpath("//*[@class='sc-12t95ss-3 fDarBX']")).click();
